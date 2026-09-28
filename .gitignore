@@ -1,0 +1,19 @@
+# Données (Kaggle, non incluses)
+data/*.csv
+!data/README.md
+
+# Sorties générées
+output/*.csv
+!output/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*checkpoint*.ipynb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
